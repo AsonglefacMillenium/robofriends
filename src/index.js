@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
+import Hello from './Hello';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+ReactDOM.render( < Hello greetings = {
+        'You are about to get ' +
+        'Serious with React '
+    }
+    / >,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
