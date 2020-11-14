@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#This project helps to search your friends and to permit you to also implement in your 
+organization lor searching and locating employees
 ## Available Scripts
 
 In the project directory, you can run:
